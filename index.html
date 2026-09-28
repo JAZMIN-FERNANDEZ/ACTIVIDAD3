@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Notificaciones de registro</title>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/componente.css">
+</head>
+
+<body>
+
+    <h1>Notificaciones de registro</h1>
+
+    <button onclick="abrirModal('¡Registro exitoso!', 'Tu cuenta se creó correctamente. Ya puedes iniciar sesión.', 'Ir a iniciar sesión')">
+        Registro exitoso
+    </button>
+
+    <button onclick="abrirModal('Correo ya registrado', 'Ese correo ya tiene una cuenta. Intenta iniciar sesión.', 'Entendido')">
+        Correo repetido
+    </button>
+
+    <button onclick="abrirModal('Faltan datos', 'Completa todos los campos para poder registrarte.', 'Revisar')">
+        Campos vacíos
+    </button>
+
+    
+    <button onclick="abrirModal('Contraseña incorrecta', 'Intenta de nuevo', 'cambiar contraseña')">
+        Contraseña
+    </button>
+
+
+    <script src="js/componente.js"></script>
+
+</body>
+</html>
